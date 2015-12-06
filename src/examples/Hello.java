@@ -51,6 +51,8 @@ public final class Hello extends HttpServlet {
         writer.println("This is the output of a servlet that is part of");
         writer.println("the Hello, World application.");
 
+	writer.println(“Update by Zuber);
+
         writer.println("</body>");
         writer.println("</html>");
     }
